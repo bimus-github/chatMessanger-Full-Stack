@@ -18,7 +18,7 @@ const initialState = {
 
 const Auth = () => {
   const [form, setForm] = useState(initialState);
-  const [isSignup, setIsSignup] = useState(true);
+  const [isSignup, setIsSignup] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -60,7 +60,7 @@ const Auth = () => {
             )}
             {isSignup && (
               <Form
-                name="urlAvatar"
+                name="avatarURL"
                 type="text"
                 placeholder="Url Avatar"
                 setForm={setForm}
