@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import Cookies from "universal-cookie";
-import { postAuth } from "../actions/auth";
-import { Form } from "../components";
+import { postAuth } from "../../actions/auth";
+import { Form } from "..";
 
-import signinImage from "../assets/signup.jpg";
-
-const cookies = new Cookies();
+import signinImage from "../../assets/signup.jpg";
 
 const initialState = {
   fullName: "",
