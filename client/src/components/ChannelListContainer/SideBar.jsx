@@ -1,11 +1,17 @@
-import HospitalIcon from "../../assets/hospital.png";
+// import HospitalIcon from "../../assets/hospital.png";
 import LogoutIcon from "../../assets/logout.png";
 
 const SideBar = ({ logout }) => (
   <div className="channel-list__sidebar">
     <div className="channel-list__sidebar__icon1">
       <div className="icon1__inner">
-        <img src={HospitalIcon} alt="Hospital" width="30" />
+        <img
+          src={
+            "https://cdn1.iconfinder.com/data/icons/ui-color/512/Untitled-4-512.png"
+          }
+          alt="Hospital"
+          width="30"
+        />
       </div>
     </div>
     <div className="channel-list__sidebar__icon2">

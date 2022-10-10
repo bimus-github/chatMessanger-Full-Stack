@@ -8,7 +8,7 @@ export const postAuth = async ({ form, isSignup }) => {
     const { username, password, phoneNumber, avatarURL } = form;
 
     // const URL = "http://localhost:5000/auth";
-    const URL = "https://messagechatmadaminjon.herokuapp.com/";
+    const URL = "https://messagechatmadaminjon.herokuapp.com/auth";
 
     const {
       data: { token, userId, hashedPassword, fullName },
